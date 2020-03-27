@@ -3,23 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Franziska_Layout</title>
+  <title>Franziska_layout</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-  <header class="header-homepage">
-      <section>
-        <img src="logo-fe-02.svg" class="logo-homepage" alt="logo" width="50" height="50">
+  <div class="container-home">
+    <header class="header-home">
+      <section class="logo-logotype">
+        <img src="logo-fe-02.svg" class="logo-home" alt="logo" width="60" height="60">
         <h1 class="logotype">Three priciples for good design</h1>
       </section>
-      <nav class="nav-homepage">
-        <a href="#01" class="nav-item">01 /</a>
-        <a href="#02" class="nav-item">02 /</a>
-        <a href="#03" class="nav-item">03 /</a>
+      <nav class="nav-home">
+        <p><a href="#01" class="nav-item nav-item-1">01</a>/</p>
+        <p><a href="#02" class="nav-item nav-item-2">02</a>/</p>
+        <p><a href="#03" class="nav-item nav-item-3">03</a></p>
       </nav>
   </header>
   <main>
+  
     <article class="rams">
       <blockquote class="rams-quote">
         <h1 class="rams-text">“As designers, we have a great responsibility.”</h1>
@@ -27,17 +28,49 @@
       </blockquote>
       <img class="rams-img" src="dieter-rams.png" alt="Dieter Rams">
     </article>
-
-    <article class="article-radio">
-      <section class="text-radio">
-        <h2 class="circle-radio">01</h2>
-        <h2>Good design is innovative</h2>
-        <p class="description-radio">The possibilities for innovation are not, by any means, exhausted. Technological development is always offering new opportunities for innovative design. But innovative design always develops in tandem with innovative technology, and can never be an end in itself.</p>
+  
+    <article class="radio">
+      <div class="radio-circle">
+        <h1>01</h1>
+      </div>
+      <section class="radio-text">
+        <h1 class="radio-h1">Good design is innovative</h1>
+        <p class="radio-description">The possibilities for innovation are not, by any means, exhausted. Technological development is always offering new opportunities for innovative design. But innovative design always develops in tandem with innovative technology, and can never be an end in itself.</p>
       </section>
-      <img class="img-radio" src="product-01.png" alt="radio">
+        <img class="radio-img" src="product-01.png" alt="radio">
+    </article>
+  
+    <article class="cup">
+      <img class="cup-img" src="product-02.png" alt="cup">
+      <div class="cup-text-container">
+        <div class="cup-circle">
+          <h1>02</h1>
+        </div>
+        <section class="cup-text">
+          <h1 class="cup-h1">Good design is innovative</h1>
+          <p class="cup-description">The possibilities for innovation are not, by any means, exhausted. Technological development is always offering new opportunities for innovative design. But innovative design always develops in tandem with innovative technology, and can never be an end in itself.</p>
+        </section>
+      </div>
     </article>
 
+    <article class="book">
+      <div class="book-circle">
+        <h1>03</h1>
+      </div>
+      <section class="book-text">
+        <h1 class="book-h1">Good design is aesthetic</h1>
+        <p class="book-description">The aesthetic quality of a product is integral to its usefulness because products we use every day affect our person and our well-being. But only well-executed objects can be beautiful.</p>
+      </section>
+        <img class="book-img" src="product-03.png" alt="book">
+    </article>
+  
   </main>
-</div>
+  </div>
+  <footer>
+    <blockquote class="rams-quote-footer">
+      <h1 class="rams-text-footer">“I don't like computers. I still like to do my drawings by hand.”</h1>
+      <p class="rams-author-footer">Dieter Rams</p>
+    </blockquote>
+  </footer>
 </body>
 </html>
